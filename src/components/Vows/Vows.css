@@ -1,0 +1,26 @@
+.vows {
+  background-image: url("../../assets/images/vows_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.vows::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.vows p {
+  position: relative;
+  z-index: 2;
+  color: white;
+}

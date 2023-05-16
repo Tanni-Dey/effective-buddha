@@ -1,0 +1,19 @@
+.evidence_left {
+  background-image: url("../../assets//images/evidence.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 30px;
+}
+.evidence_left::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  border-radius: 5px;
+}
