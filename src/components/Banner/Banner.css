@@ -6,7 +6,6 @@
   padding: 150px 0 150px 0;
   text-align: center;
   position: relative;
-  margin-bottom: 50px;
 }
 .banner::after {
   position: absolute;
@@ -24,7 +23,8 @@
   z-index: 2;
 }
 .buddh_heading {
-  font-size: 80px;
+  font-size: 75px;
+  font-weight: bold;
   color: white;
   margin-bottom: 20px;
 }

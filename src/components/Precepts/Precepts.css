@@ -1,0 +1,52 @@
+.precepts {
+  padding: 70px 0;
+  text-align: center;
+}
+.precpts_heading h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: rgb(2, 61, 82);
+}
+.precpts_heading p {
+  color: grey;
+  max-width: 75%;
+  margin: 0 auto 60px auto;
+}
+
+.single_precept {
+  border: 2px solid rgb(2, 61, 82);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.single_precept:hover {
+  background: rgb(2, 61, 82);
+  transition: ease-in-out 0.5s;
+  color: white;
+}
+
+.single_precept img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.single_precept p {
+  margin-bottom: 20px;
+}
+.single_precept button {
+  background: rgb(2, 61, 82);
+  border: 2px solid rgb(2, 61, 82);
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+.single_precept:hover > button {
+  border: 2px solid rgb(2, 61, 82);
+  background-color: white;
+  color: rgb(2, 61, 82);
+  transition: ease-in-out 0.5s;
+}
